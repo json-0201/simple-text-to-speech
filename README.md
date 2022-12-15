@@ -1,6 +1,8 @@
 <h1 align="center">Simple-Text-To-Speech</h1>
 
-[The Big Bang](https://websites.umich.edu/~gs265/bigbang.htm)
+<p align="center">
+  [The Big Bang](https://websites.umich.edu/~gs265/bigbang.htm)
+</p>
 
 <p align="center">
   Convert text to speech and save the output.
