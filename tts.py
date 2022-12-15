@@ -4,7 +4,7 @@
 from gtts import gTTS # Google Text-to-Speech
 from playsound import playsound
 
-file_name = "sample.mp3"
+file_name = "tts.mp3"
 
 # language: English
 # text = "Not All Of Us Can Afford To Be Romantic."
@@ -18,10 +18,10 @@ file_name = "sample.mp3"
 # tts_ko.save(file_name)
 # playsound(file_name)
 
-# long text (open from a file)
-with open("sample.txt", "r", encoding="utf8") as f:
+# tts from a text file
+with open("bigbang.txt", "r", encoding="utf8") as f:
     text = f.read()
 
-tts_ko = gTTS(text=text, lang="ko")
-tts_ko.save(file_name)
+tts_file = gTTS(text=text, lang="en")
+tts_file.save(file_name)
 playsound(file_name)
