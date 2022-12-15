@@ -1,7 +1,9 @@
-# simple-text-to-speech
--> convert text to speech and save/play output
+<h1 align="center">Simple-Text-To-Speech</h1>
 
-sample text from: https://websites.umich.edu/~gs265/bigbang.htm
-=> bigbang.mp3
+<p align="center">
+convert text from [The Big Bang](https://websites.umich.edu/~gs265/bigbang.htm "The Big Bang") to speech and save the output
+</p>
 
-module: gTTS
+## Programs & Libraries Used
+
+- Python [gtts, playsound]
