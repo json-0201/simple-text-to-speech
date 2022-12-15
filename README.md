@@ -3,8 +3,7 @@
 <p align="center">
 convert text from link to speech and save the output
   
-<i>Link:</i>  
-[The Big Bang](https://websites.umich.edu/~gs265/bigbang.htm "The Big Bang")
+<i>Link:</i> [The Big Bang](https://websites.umich.edu/~gs265/bigbang.htm "The Big Bang")
 </p>
 
 ## Programs & Libraries Used
